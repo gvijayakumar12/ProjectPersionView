@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':personview'
 rootProject.name = "ProjectPersonView"
