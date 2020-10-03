@@ -6,15 +6,15 @@ This library works after v5.0
 
 # How to add this library in your project
 
-# Step 1 - Add the JitPack repository to your build file
+## Step 1 - Add the JitPack repository to your build file
 Add it in your root build.gradle at the end of repositories:
 
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
+    repositories {
+        ....
+        maven { url 'https://jitpack.io' }
+    }
+}
   
 # Step 2 - Step 2. Add the dependency
 
