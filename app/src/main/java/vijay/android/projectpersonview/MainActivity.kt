@@ -10,6 +10,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        pvContact.setImageUrl("https://image.freepik.com/free-vector/pack-colorful-square-emoticons_23-2147589525.jpg")
+
         tvHelloWorld.setOnClickListener {
             ToastViewer.showSimpleToast(this, "Library Sync Success")
         }
