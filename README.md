@@ -9,21 +9,21 @@ This library works after v5.0
 ## Step 1 - Add the JitPack repository to your build file
 Add it in your root build.gradle at the end of repositories:
 
-allprojects {
+	allprojects {
 
-    repositories {
+    		repositories {
     
-        ....
+        		....
 	
-        maven { url 'https://jitpack.io' }
+        		maven { url 'https://jitpack.io' }
 	
-    }
+   		 }
     
-}
+	}
   
 ## Step 2 - Step 2. Add the dependency
 
-dependencies {
+	dependencies {
 
 	        implementation 'com.github.gvijayakumar12:ProjectPersonView:0.0.1'
 		
@@ -31,7 +31,10 @@ dependencies {
   
 ## Step3 - Add Internet permission in your application Manifest file
 
-<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+
+
+
 
 
 
